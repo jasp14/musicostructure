@@ -219,7 +219,7 @@ for (i = 1; i < 5; i++) {
 
 // For loop to create experimental stimuli items
 for (i = 1; i < 13; i++) {
-    var atts = ['_la', '_ha', '_low', '_high'];
+    var atts = ['_lo', '_hi', '_loa', '_hia'];
     for(atts_i in atts){
         var itemname = expprefix + "_list" + listnum.toString() + atts[atts_i] + i.toString();
         var itemX = [itemname];
